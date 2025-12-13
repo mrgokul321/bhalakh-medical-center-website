@@ -123,7 +123,7 @@ h6 {
 }
 
 .btn-appintment:hover {
-    background-color:transparent;
+    background-color: transparent;
     border-color: var(--color-brand);
     color: var(--color-brand) !important;
     outline: var(--color-brand) 3px solid;
@@ -152,7 +152,7 @@ h6 {
 
 .navbar-nav .nav-link {
     font-weight: 600;
-    color:#000;
+    color: #000;
     margin-left: 15px;
     position: relative;
     transition: var(--transition);
@@ -259,7 +259,8 @@ footer ul {
 footer .line {
     width: 45px;
     height: 4px;
-    background: linear-gradient(90deg, #6500D3, #C600DC);;
+    background: linear-gradient(90deg, #6500D3, #C600DC);
+    ;
     margin-top: 12px;
     margin-bottom: 24px;
 }
@@ -377,4 +378,115 @@ footer .form-control:focus {
 .category-img img:hover {
     transform: scale(1.02);
     transition: 0.3s ease-in-out;
+}
+
+
+/* ------------- ABOUT US ---------------- */
+
+/* Our values */
+.value-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+/* Color Variants */
+.bg-purple {
+    background: #7b2cff;
+}
+
+.bg-green {
+    background: #28a745;
+}
+
+.bg-orange {
+    background: #fd7e14;
+}
+
+.bg-blue {
+    background: #0d6efd;
+}
+
+.bg-teal {
+    background: #20c997;
+}
+
+.bg-red {
+    background: #dc3545;
+}
+
+
+/* contact details */
+/* Section Height */
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+/* Left Info Panel */
+.info-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.contact-item i {
+    font-size: 20px;
+    color:var(--color-brand);
+}
+
+/* Map */
+.map-wrapper {
+    position: relative;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 991px) {
+    .min-vh-75 {
+        min-height: auto;
+    }
+
+    .info-panel {
+        padding: 2rem !important;
+    }
+
+    .map-wrapper iframe {
+        height: 350px;
+    }
 }
