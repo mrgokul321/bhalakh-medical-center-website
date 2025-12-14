@@ -638,31 +638,67 @@ footer .form-control:focus {
 }
 
 /* ------------------ OUR TEAM ------------------ */
-
-
-
-/* ------------------ OUR CARE ------------------ */
-/* patient experience */
-.patient-experience .experience-box {
-    background: #fff;
-    padding: 22px;
-    border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+/* TEAM HERO SECTION */
+.team-hero {
+    background: linear-gradient(90deg, #6500D3, #C600DC);
 }
 
-.patient-experience .experience-box i {
-    font-size: 24px;
-    color: #6f42c1;
-    margin-bottom: 10px;
+/* leaders section */
+/* LEADERSHIP SECTION */
+.leadership-section {
+    background: #fafafa;
 }
 
-.patient-experience h6 {
+.leader-name {
+    font-size: 26px;
     font-weight: 600;
-    margin-bottom: 6px;
+    color: #2c2c2c;
 }
 
-.patient-experience p {
+.leader-degree {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+}
+
+
+.leader-role {
+    display: inline-block;
     font-size: 14px;
-    color: #6c757d;
-    margin: 0;
+    font-weight: 600;
+    color: #7b2cbf;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.leader-desc {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.leader-quote {
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 4px solid #7b2cbf;
+    font-style: italic;
+    color: #333;
+    font-size: 15px;
+}
+
+.leader-img {
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    max-width: 90%;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .leader-name {
+        font-size: 22px;
+    }
+
+    .leader-img {
+        max-width: 100%;
+    }
 }
