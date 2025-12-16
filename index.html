@@ -65,7 +65,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="Infrastructure.html">Infrastructure</a>
+                        <a class="nav-link" href="infrastructure.html">Infrastructure</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-appintment btn-sm blink" href="book-appointment.html">Book
@@ -80,8 +80,12 @@
     <section class="hero-section d-flex align-items-center text-white position-relative overflow-hidden">
         <!-- Background Video -->
         <div class="position-absolute top-0 start-0 w-100 h-100 z-n1">
-            <img src="assets/images/hero.jpg" class="w-100 h-100 object-fit-cover"></img>
-            <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.2);">
+            <video class="w-100 h-100 object-fit-cover" autoplay loop muted playsinline>
+                <source src="assets/videos/index-hero.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- Darker overlay for better text visibility -->
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.7);">
             </div>
         </div>
 
@@ -90,16 +94,16 @@
             <div class="row h-100">
                 <div
                     class="col-12 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start h-100">
-                    <h1 class="display-4 fw-bold mb-3 text-dark">
-                        Precision care for <br class="d-none d-md-block"><span class="text-brand">Peace of mind</span>
+                    <h1 class="display-4 fw-bold mb-3 text-white">
+                        Precision care for <br class="d-none d-md-block"><span class="text-warning">Peace of mind</span>
                     </h1>
-                    <p class="lead text-secondary mb-4 px-2 px-md-0" style="max-width: 650px;">
+                    <p class="lead text-white mb-4 px-2 px-md-0" style="max-width: 650px;">
                         Building a healthier tomorrow, Empowering lives through health, Healing begins here, Dedicated
                         to your health journey, & Together for a healthier future.
                     </p>
                     <div class="d-flex flex-column flex-sm-row gap-3">
-                        <a href="#" class="btn btn-outline-brand">Book Appointment</a>
-                        <a href="#" class="btn btn-outline-dark">Our Care</a>
+                        <a href="#" class="btn btn-brand text-white">Book Appointment</a>
+                        <a href="#" class="btn btn-outline-light">Our Care</a>
                     </div>
                 </div>
             </div>
@@ -398,7 +402,8 @@
                 </div>
 
                 <div class="col-lg-6 text-center">
-                    <img src="assets/images/dr-ranjitha.jpg" class="img-fluid leader-img" alt="Dr Ranjitha Sudanthiram">
+                    <img src="assets/images/doctors/dr-ranjitha.jpg" class="img-fluid leader-img"
+                        alt="Dr Ranjitha Sudanthiram">
                 </div>
             </div>
 
@@ -430,7 +435,8 @@
                 </div>
 
                 <div class="col-lg-6 text-center">
-                    <img src="assets/images/dr-udhay-shankar.jpg" class="img-fluid leader-img" alt="Dr S Udhayashankar">
+                    <img src="assets/images/doctors/dr-udhay-shankar.jpg" class="img-fluid leader-img"
+                        alt="Dr S Udhayashankar">
                 </div>
             </div>
             <!-- KNOW MORE BUTTON -->
@@ -439,6 +445,166 @@
                     Know More Details
                 </a>
             </div>
+        </div>
+    </section>
+
+    <!-- INFRASTRUCTURE SECTION -->
+    <section id="infrastructure" class="py-5 bg-secondary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Video -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <video class="w-100 rounded-4 shadow" autoplay loop muted playsinline>
+                        <source src="assets/videos/infra-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!-- Content -->
+                <div class="col-lg-6">
+                    <h2 class="text-white mb-3">Our Medical <span class="text-warning">Infrastructure</span></h2>
+                    <p class="text-light mb-4">
+                        Explore our state-of-the-art facilities designed for superior patient care,
+                        advanced diagnostics, and comfort. Our infrastructure ensures safety, hygiene,
+                        and a welcoming environment for all visitors.
+                    </p>
+                    <a href="infrastructure.html" class="btn btn-outline-brand">Know More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL SECTION -->
+    <section class="testimonial section-padding bg-light">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="text-center mb-4">
+                <h2 class="fw-semibold">What Our Patients Say</h2>
+                <p class="text-muted">
+                    Trusted experiences from patients who chose Bhalakh Medical Centre
+                </p>
+            </div>
+
+            <!-- Slider -->
+            <div class="overflow-hidden">
+                <div id="testimonialTrack" class="row g-4 flex-nowrap">
+
+                    <!-- Review 1 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0 p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-heart-pulse fs-4 text-danger me-2"></i>
+                                <span class="fw-semibold">Patient Review</span>
+                            </div>
+                            <p class="text-muted mb-4">
+                                Excellent care and support from doctors and staff.
+                            </p>
+                            <div class="text-warning mb-3">★★★★★</div>
+                            <h6 class="mb-0 fw-semibold">Priya S</h6>
+                            <small class="text-muted">Adyar</small>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0 p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-heart-pulse fs-4 text-danger me-2"></i>
+                                <span class="fw-semibold">Patient Review</span>
+                            </div>
+                            <p class="text-muted mb-4">
+                                Very professional doctors and modern facilities.
+                            </p>
+                            <div class="text-warning mb-3">★★★★★</div>
+                            <h6 class="mb-0 fw-semibold">Ramesh K</h6>
+                            <small class="text-muted">T Nagar</small>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0 p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-heart-pulse fs-4 text-danger me-2"></i>
+                                <span class="fw-semibold">Patient Review</span>
+                            </div>
+                            <p class="text-muted mb-4">
+                                Doctors explained everything clearly and patiently.
+                            </p>
+                            <div class="text-warning mb-3">★★★★★</div>
+                            <h6 class="mb-0 fw-semibold">Lakshmi R</h6>
+                            <small class="text-muted">Velachery</small>
+                        </div>
+                    </div>
+
+                    <!-- Review 4 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0 p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-heart-pulse fs-4 text-danger me-2"></i>
+                                <span class="fw-semibold">Patient Review</span>
+                            </div>
+                            <p class="text-muted mb-4">
+                                Clean environment and caring medical staff.
+                            </p>
+                            <div class="text-warning mb-3">★★★★★</div>
+                            <h6 class="mb-0 fw-semibold">Suresh M</h6>
+                            <small class="text-muted">Mylapore</small>
+                        </div>
+                    </div>
+
+                    <!-- Review 5 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0 p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-heart-pulse fs-4 text-danger me-2"></i>
+                                <span class="fw-semibold">Patient Review</span>
+                            </div>
+                            <p class="text-muted mb-4">
+                                Truly patient-focused treatment and guidance.
+                            </p>
+                            <div class="text-warning mb-3">★★★★★</div>
+                            <h6 class="mb-0 fw-semibold">Anitha V</h6>
+                            <small class="text-muted">OMR</small>
+                        </div>
+                    </div>
+
+                    <!-- Review 6 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0 p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-heart-pulse fs-4 text-danger me-2"></i>
+                                <span class="fw-semibold">Patient Review</span>
+                            </div>
+                            <p class="text-muted mb-4">
+                                Advanced technology with compassionate care.
+                            </p>
+                            <div class="text-warning mb-3">★★★★★</div>
+                            <h6 class="mb-0 fw-semibold">Vijay P</h6>
+                            <small class="text-muted">Anna Nagar</small>
+                        </div>
+                    </div>
+
+                    <!-- Review 7 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0 p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-heart-pulse fs-4 text-danger me-2"></i>
+                                <span class="fw-semibold">Patient Review</span>
+                            </div>
+                            <p class="text-muted mb-4">
+                                One of the best healthcare experiences I’ve had.
+                            </p>
+                            <div class="text-warning mb-3">★★★★★</div>
+                            <h6 class="mb-0 fw-semibold">Meena S</h6>
+                            <small class="text-muted">Besant Nagar</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -519,6 +685,8 @@
 
     <!-- External JS -->
     <script src="./script/script.js"></script>
+    <script src="./script/testimonials.js"></script>
+
 </body>
 
 </html>
