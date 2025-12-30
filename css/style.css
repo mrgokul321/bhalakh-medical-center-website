@@ -180,7 +180,7 @@ h6 {
 
 .dropdown-menu .dropdown-item:hover {
     background-color: var(--color-brand-light);
-    color: #000;
+    color: #ffffff;
 }
 
 /* Hover open dropdown on desktop */
@@ -701,4 +701,12 @@ footer .form-control:focus {
     .leader-img {
         max-width: 100%;
     }
+}
+
+
+/* ------------------ OUR CARE ------------------ */
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
 }

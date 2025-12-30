@@ -49,19 +49,36 @@
             <div class="collapse navbar-collapse" id="mainNavbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="about-us.html">About us</a>
+                        <a class="nav-link" href="about-us.html">About us</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="our-team.html">Our Team</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="our-care.html">Our Care</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="ourCareDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Care
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="ourCareDropdown">
+                            <li><a class="dropdown-item" href="orthopaedic.html">Orthopaedics</a></li>
+                            <li><a class="dropdown-item" href="orthobiologics.html">Orthobiologics</a></li>
+                            <li><a class="dropdown-item" href="radiology.html">Radiology</a></li>
+                            <li><a class="dropdown-item" href="obstetrics-and-gynaecology.html">Obstetrics &
+                                    gynaecology</a></li>
+                            <li><a class="dropdown-item" href="general-medicine.html">General Medicine</a></li>
+                            <li><a class="dropdown-item" href="general-surgery.html">General Surgery</a></li>
+                            <li><a class="dropdown-item" href="paediatrics.html">Paediatrics</a></li>
+                            <li><a class="dropdown-item" href="dermatology.html">Dermatology</a></li>
+                            <li><a class="dropdown-item" href="pulmonology.html">Pulmonology</a></li>
+                            <li><a class="dropdown-item" href="surgical-gastroenterology.html">Surgical
+                                    Gastroenterology</a></li>
+                        </ul>
                     </li>
 
                     <li class="nav-item">
@@ -92,16 +109,17 @@
                     </p>
                     <!-- HIGHLIGHT BADGES -->
                     <div class="mb-4">
-                        <span class="badge bg-brand border-brand me-2 mb-2">
+                        <span class="badge bg-brand border-brand me-2 mb-2 py-2">
                             <i class="bi bi-award-fill me-1"></i> NABH Facilities
                         </span>
-                        <span class="badge bg-brand border-brand me-2 mb-2">
-                            <i class="bi bi-clock-history me-1"></i> 24/7 Emergency
+                        <span class="badge bg-brand border-brand me-2 mb-2 py-2">
+                            <i class="bi bi-hospital me-1"></i> Advanced Equipment
                         </span>
-                        <span class="badge bg-brand border-brand me-2 mb-2">
+                        <span class="badge bg-brand border-brand me-2 mb-2 py-2">
                             <i class="bi bi-person-badge-fill me-1"></i> Expert Doctors
                         </span>
                     </div>
+
                     <!-- CTA BUTTONS -->
                     <div class="d-flex flex-column flex-sm-row gap-3">
                         <a href="book-appointment.html" class="btn btn-outline-brand">Book Appointment</a>

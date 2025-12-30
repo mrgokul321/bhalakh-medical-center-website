@@ -33,42 +33,60 @@
 <body>
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg bg-white sticky-top">
-    <div class="container">
-      <!-- Logo -->
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="assets/images/logo.png" alt="Bhalakh Medical Center Logo" class="me-2">
-      </a>
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.png" alt="Bhalakh Medical Center Logo" class="me-2">
+            </a>
 
-      <!-- Toggle button (mobile) -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <!-- Toggle button (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <!-- Navbar Links -->
-      <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="about-us.html">About us</a>
-          </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="our-team.html">Our Team</a>
-          </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our-team.html">Our Team</a>
+                    </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="our-care.html">Our Care</a>
-          </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="ourCareDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Care
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="ourCareDropdown">
+                            <li><a class="dropdown-item" href="orthopaedic.html">Orthopaedics</a></li>
+                            <li><a class="dropdown-item" href="orthobiologics.html">Orthobiologics</a></li>
+                            <li><a class="dropdown-item" href="radiology.html">Radiology</a></li>
+                            <li><a class="dropdown-item" href="obstetrics-and-gynaecology.html">Obstetrics &
+                                    gynaecology</a></li>
+                            <li><a class="dropdown-item" href="general-medicine.html">General Medicine</a></li>
+                            <li><a class="dropdown-item" href="general-surgery.html">General Surgery</a></li>
+                            <li><a class="dropdown-item" href="paediatrics.html">Paediatrics</a></li>
+                            <li><a class="dropdown-item" href="dermatology.html">Dermatology</a></li>
+                            <li><a class="dropdown-item" href="pulmonology.html">Pulmonology</a></li>
+                            <li><a class="dropdown-item" href="surgical-gastroenterology.html">Surgical
+                                    Gastroenterology</a></li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="infrastructure.html">Infrastructure</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-appintment btn-sm blink" href="book-appointment.html">Book Appointment</a>
+                        <a class="nav-link btn btn-appintment btn-sm blink" href="book-appointment.html">Book
+                            Appointment</a>
                     </li>
                 </ul>
             </div>

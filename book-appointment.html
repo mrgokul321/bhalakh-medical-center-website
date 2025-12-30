@@ -49,7 +49,7 @@
             <div class="collapse navbar-collapse" id="mainNavbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -60,15 +60,32 @@
                         <a class="nav-link" href="our-team.html">Our Team</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="our-care.html">Our Care</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="ourCareDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Care
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="ourCareDropdown">
+                            <li><a class="dropdown-item" href="orthopaedic.html">Orthopaedics</a></li>
+                            <li><a class="dropdown-item" href="orthobiologics.html">Orthobiologics</a></li>
+                            <li><a class="dropdown-item" href="radiology.html">Radiology</a></li>
+                            <li><a class="dropdown-item" href="obstetrics-and-gynaecology.html">Obstetrics &
+                                    gynaecology</a></li>
+                            <li><a class="dropdown-item" href="general-medicine.html">General Medicine</a></li>
+                            <li><a class="dropdown-item" href="general-surgery.html">General Surgery</a></li>
+                            <li><a class="dropdown-item" href="paediatrics.html">Paediatrics</a></li>
+                            <li><a class="dropdown-item" href="dermatology.html">Dermatology</a></li>
+                            <li><a class="dropdown-item" href="pulmonology.html">Pulmonology</a></li>
+                            <li><a class="dropdown-item" href="surgical-gastroenterology.html">Surgical
+                                    Gastroenterology</a></li>
+                        </ul>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="infrastructure.html">Infrastructure</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-appintment  btn-sm blink" href="book-appointment.html">Book
+                        <a class="nav-link btn btn-appintment btn-sm blink" href="book-appointment.html">Book
                             Appointment</a>
                     </li>
                 </ul>
@@ -96,12 +113,13 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label class="form-label">Mobile Number</label>
-                                        <input type="tel" class="form-control border-1 border-secondary" placeholder="Enter mobile number"
-                                            required>
+                                        <input type="tel" class="form-control border-1 border-secondary"
+                                            placeholder="Enter mobile number" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label class="form-label">Email Address</label>
-                                        <input type="email" class="form-control border-1 border-secondary" placeholder="Enter email">
+                                        <input type="email" class="form-control border-1 border-secondary"
+                                            placeholder="Enter email">
                                     </div>
                                     <!-- <div class="col-md-6">
                                         <label class="form-label border-1 border-secondary">Department</label>
@@ -138,7 +156,8 @@
                                             placeholder="Briefly describe your problem"></textarea>
                                     </div>
                                     <div class="col-12 text-center mt-4">
-                                        <button type="submit" class="btn btn-outline-brand px-5">Book Appointment</button>
+                                        <button type="submit" class="btn btn-outline-brand px-5">Book
+                                            Appointment</button>
                                     </div>
                                 </div>
                             </form>

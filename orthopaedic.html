@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhalakh Medical Centre - Day Care Medical Centre Adayar</title>
+
+    <!-- Website Fevicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Remix Icon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.png" alt="Bhalakh Medical Center Logo" class="me-2">
+            </a>
+
+            <!-- Toggle button (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="our-team.html">Our Team</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" id="ourCareDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Care
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="ourCareDropdown">
+                            <li><a class="dropdown-item" href="orthopaedic.html">Orthopaedics</a></li>
+                            <li><a class="dropdown-item" href="orthobiologics.html">Orthobiologics</a></li>
+                            <li><a class="dropdown-item" href="radiology.html">Radiology</a></li>
+                            <li><a class="dropdown-item" href="obstetrics-and-gynaecology.html">Obstetrics &
+                                    gynaecology</a></li>
+                            <li><a class="dropdown-item" href="general-medicine.html">General Medicine</a></li>
+                            <li><a class="dropdown-item" href="general-surgery.html">General Surgery</a></li>
+                            <li><a class="dropdown-item" href="paediatrics.html">Paediatrics</a></li>
+                            <li><a class="dropdown-item" href="dermatology.html">Dermatology</a></li>
+                            <li><a class="dropdown-item" href="pulmonology.html">Pulmonology</a></li>
+                            <li><a class="dropdown-item" href="surgical-gastroenterology.html">Surgical
+                                    Gastroenterology</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="infrastructure.html">Infrastructure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-appintment btn-sm blink" href="book-appointment.html">Book
+                            Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ORTHOPAEDICS HERO SECTION -->
+    <section class="hero-section position-relative overflow-hidden text-white">
+        <!-- Background -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 z-n1">
+            <img src="assets/images/our-care/orthopaedic-hero.png" class="w-100 h-100 object-fit-cover"
+                alt="Orthopaedics hero image">
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.55);"></div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row align-items-center" style="min-height: 70vh;">
+                <div class="col-lg-7">
+                    <h1 class="text-white display-4 fw-bold mb-3">
+                        Expert <span class="text-warning">Orthopaedic</span> for a Pain-Free Life
+                    </h1>
+                    <p class="lead mb-2">
+                        Advanced bone, joint & spine treatment with personalized care.
+                    </p>
+                    <p class="mb-4">
+                        From fractures to complex joint issues, our orthopaedic team offers accurate diagnosis,
+                        modern treatment options, and comprehensive rehabilitation to help you regain
+                        strength and mobility.
+                    </p>
+
+                    <a href="book-appointment.html" class="btn btn-primary btn-lg me-3">
+                        Book an Appointment
+                    </a>
+                    <a href="our-team.html" class="btn btn-outline-light btn-lg">
+                        Our Team </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONDITIONS WE TREAT (CARD WITH IMAGE STYLE) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Conditions We Treat</h2>
+                <p class="text-muted mx-auto" style="max-width: 700px;">
+                    Our Orthopaedic Department provides expert diagnosis and treatment for a wide range
+                    of bone, joint, and spine conditions. From everyday injuries to complex concerns,
+                    we ensure accurate care with advanced medical technologies.
+                </p>
+            </div>
+            <div class="row g-4">
+                <!-- CARD 1 -->
+                <div class="col-lg-6">
+                    <div class="d-flex bg-white rounded-4 shadow-sm overflow-hidden h-100">
+                        <img src="assets/images/our-care/ortho-knee.png" class="img-fluid"
+                            style="width: 180px; object-fit: cover;" alt="Knee Pain & Ligament Injuries">
+                        <div class="p-4">
+                            <h5 class="fw-bold">Knee Pain & Ligament Injuries</h5>
+                            <p class="text-muted mb-0">ACL tears, meniscus injuries, patellar pain.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-lg-6">
+                    <div class="d-flex bg-white rounded-4 shadow-sm overflow-hidden h-100">
+                        <img src="assets/images/our-care/ortho-back.png" class="img-fluid"
+                            style="width: 180px; object-fit: cover;" alt="Back & Spine Disorders">
+                        <div class="p-4">
+                            <h5 class="fw-bold">Back & Spine Disorders</h5>
+                            <p class="text-muted mb-0">Disc issues, spondylosis, sciatica.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-lg-6">
+                    <div class="d-flex bg-white rounded-4 shadow-sm overflow-hidden h-100">
+                        <img src="assets/images/our-care/ortho-shoulder.png" class="img-fluid"
+                            style="width: 180px; object-fit: cover;" alt="Shoulder Pain & Rotator Cuff">
+                        <div class="p-4">
+                            <h5 class="fw-bold">Shoulder Pain & Rotator Cuff Problems</h5>
+                            <p class="text-muted mb-0">Rotator cuff tears, impingement, frozen shoulder.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-lg-6">
+                    <div class="d-flex bg-white rounded-4 shadow-sm overflow-hidden h-100">
+                        <img src="assets/images/our-care/ortho-hip.png" class="img-fluid"
+                            style="width: 180px; object-fit: cover;" alt="Hip Pain & Joint Problems">
+                        <div class="p-4">
+                            <h5 class="fw-bold">Hip Pain & Joint Problems</h5>
+                            <p class="text-muted mb-0">Arthritis, osteoarthritis, cartilage damage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="col-lg-6">
+                    <div class="d-flex bg-white rounded-4 shadow-sm overflow-hidden h-100">
+                        <img src="assets/images/our-care/ortho-sports.png" class="img-fluid"
+                            style="width: 180px; object-fit: cover;" alt="Sports Injuries">
+                        <div class="p-4">
+                            <h5 class="fw-bold">Sports Injuries</h5>
+                            <p class="text-muted mb-0">Sprains, strains, muscle tears.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="col-lg-6">
+                    <div class="d-flex bg-white rounded-4 shadow-sm overflow-hidden h-100">
+                        <img src="assets/images/our-care/ortho-fracture.png" class="img-fluid"
+                            style="width: 180px; object-fit: cover;" alt="Fractures & Trauma Care">
+                        <div class="p-4">
+                            <h5 class="fw-bold">Fractures & Trauma Care</h5>
+                            <p class="text-muted mb-0">Broken bones, fracture care, trauma recovery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Content -->
+                <div class="col-lg-8 text-lg-start text-center mb-3 mb-lg-0">
+                    <h3 class="fw-bold text-white mb-2">
+                        Experience Healthcare Designed Around You
+                    </h3>
+                    <p class="text-white-75 mb-0">
+                        Advanced infrastructure and thoughtfully designed spaces for a trusted care experience.
+                    </p>
+                </div>
+
+                <!-- Right Button -->
+                <div class="col-lg-4 text-lg-end text-center">
+                    <a href="book-appointment.html" class="btn btn-outline-light btn-lg rounded-pill px-5 fw-semibold">
+                        Book Appointment
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE OUR ORTHOPAEDIC CARE (NEW DESIGN) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Why Choose Our Orthopaedic Care</h2>
+                <p class="text-muted mx-auto" style="max-width: 700px;">
+                    Personalized care, advanced technology, and expert surgeons to ensure safe recovery.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- CARD 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center h-100 border-0 shadow-sm p-4 bg-gradient-light hover-shadow">
+                        <div class="mb-3">
+                            <i class="bi bi-person-badge fs-1 text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Experienced Surgeons</h5>
+                        <p class="text-muted mb-0">Skilled in joint replacement, spine surgery, and trauma care.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center h-100 border-0 shadow-sm p-4 bg-gradient-light hover-shadow">
+                        <div class="mb-3">
+                            <i class="bi bi-hospital fs-1 text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Advanced Technology</h5>
+                        <p class="text-muted mb-0">Digital X-rays, MRI, arthroscopy, and modern OTs.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center h-100 border-0 shadow-sm p-4 bg-gradient-light hover-shadow">
+                        <div class="mb-3">
+                            <i class="bi bi-heart-pulse fs-1 text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Comprehensive Rehab</h5>
+                        <p class="text-muted mb-0">Physiotherapy and post-surgery recovery programs.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center h-100 border-0 shadow-sm p-4 bg-gradient-light hover-shadow">
+                        <div class="mb-3">
+                            <i class="bi bi-gear fs-1 text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Personalized Recovery Plan</h5>
+                        <p class="text-muted mb-0">Tailored post-surgery programs and physiotherapy for faster, safer
+                            recovery.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center h-100 border-0 shadow-sm p-4 bg-gradient-light hover-shadow">
+                        <div class="mb-3">
+                            <i class="bi bi-people fs-1 text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Patient-Centered Approach</h5>
+                        <p class="text-muted mb-0">Personalized treatment plans for faster recovery.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center h-100 border-0 shadow-sm p-4 bg-gradient-light hover-shadow">
+                        <div class="mb-3">
+                            <i class="bi bi-hand-thumbs-up fs-1 text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Holistic Care</h5>
+                        <p class="text-muted mb-0">Integrating physical, emotional, and post-treatment support for
+                            complete recovery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Frequently Asked Questions</h2>
+                <p class="text-muted mx-auto" style="max-width: 700px;">
+                    Here are some common questions our patients ask about orthopaedic care, treatments, and recovery.
+                </p>
+            </div>
+
+            <div class="accordion" id="faqAccordion">
+
+                <!-- FAQ 1 – Initially Open -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            When should I see an orthopaedic doctor?
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            If you experience persistent joint or bone pain, swelling, reduced mobility, or injuries
+                            from accidents, it’s best to consult an orthopaedic specialist.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            Is surgery always necessary for joint pain?
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            No. Many conditions can be managed with physiotherapy, medication, and lifestyle changes.
+                            Surgery is considered only when non-invasive treatments are insufficient.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            How long is the recovery after joint replacement surgery?
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Recovery time varies by procedure and patient health, but most patients regain mobility
+                            within 6–12 weeks with proper physiotherapy.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            Do you provide emergency care for fractures and injuries?
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, our orthopaedic department offers 24/7 emergency services for fractures, trauma, and
+                            sports injuries.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            Are physiotherapy and rehabilitation included after surgery?
+                        </button>
+                    </h2>
+                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Absolutely. We provide comprehensive physiotherapy programs tailored to each patient’s needs
+                            to ensure faster and safe recovery.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <div id="footer-area"></div>
+
+    <!-- FLOATING BUTTONS -->
+    <div id="floating-buttons-area"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- External JS -->
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
