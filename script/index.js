@@ -74,3 +74,10 @@ window.addEventListener("scroll", () => {
         counterStarted = true;
     }
 });
+
+
+// SET VOLUME FOR INFRASTRUCTURE VIDEO
+const infraVideo = document.querySelector("#infrastructure video");
+if (infraVideo) {
+    infraVideo.volume = 0.5; // 50% volume
+}
