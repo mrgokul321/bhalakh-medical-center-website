@@ -36,7 +36,7 @@ setInterval(() => {
     }
 }, 2500);
 
-window.addEventListener("resize", () => location.reload());
+// window.addEventListener("resize", () => location.reload());
 
 
 
