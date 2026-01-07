@@ -710,3 +710,16 @@ footer .form-control:focus {
     box-shadow: none;
     outline: none;
 }
+
+/* Active (opened) accordion header */
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-brand); /* Bootstrap primary color */
+    color: #fff;
+    box-shadow: none;
+}
+
+/* Arrow icon color (active state) */
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+
