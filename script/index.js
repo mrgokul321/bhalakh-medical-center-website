@@ -79,5 +79,5 @@ window.addEventListener("scroll", () => {
 // SET VOLUME FOR INFRASTRUCTURE VIDEO
 const infraVideo = document.querySelector("#infrastructure video");
 if (infraVideo) {
-    infraVideo.volume = 0.5; // 50% volume
+    infraVideo.volume = 0.1; // 10% volume
 }
