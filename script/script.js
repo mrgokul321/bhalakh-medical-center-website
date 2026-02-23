@@ -7,3 +7,11 @@ fetch('components/footer.html')
 fetch('components/floating-buttons.html')
     .then(res => res.text())
     .then(data => document.getElementById('floating-buttons-area').innerHTML = data);
+
+
+// Recap scrolling function
+function scrollRecap(amount) {
+    const el = document.getElementById('recapScroller');
+    if (!el) return;
+    el.scrollBy({ left: amount, behavior: 'smooth' });
+}
