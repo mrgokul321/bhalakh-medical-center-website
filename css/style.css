@@ -693,7 +693,7 @@ footer .form-control:focus {
 
 .leader-img {
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     max-width: 90%;
 }
 
@@ -718,7 +718,8 @@ footer .form-control:focus {
 
 /* Active (opened) accordion header */
 .accordion-button:not(.collapsed) {
-    background-color: var(--color-brand); /* Bootstrap primary color */
+    background-color: var(--color-brand);
+    /* Bootstrap primary color */
     color: #fff;
     box-shadow: none;
 }
@@ -728,3 +729,25 @@ footer .form-control:focus {
     filter: brightness(0) invert(1);
 }
 
+
+/* our care recap section */
+.services-recap-scroller {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: .25rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.recap-card {
+    flex: 0 0 auto;
+    width: 280px;
+    scroll-snap-align: start;
+}
+
+@media (min-width: 768px) {
+    .recap-card {
+        width: 320px;
+    }
+}
