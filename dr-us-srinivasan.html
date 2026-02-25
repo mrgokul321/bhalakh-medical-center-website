@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhalakh Medical Centre - Day Care Medical Centre Adayar</title>
+
+    <!-- Website Fevicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Remix Icon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo+nabh.png" alt="Bhalakh Medical Center Logo" class="me-2">
+            </a>
+
+            <!-- Toggle button (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="our-team.html">Our Team</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="ourCareDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Care
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="ourCareDropdown">
+                            <li><a class="dropdown-item" href="radiology.html">Radiology</a></li>
+                            <li><a class="dropdown-item" href="orthopaedic.html">Orthopaedics</a></li>
+                            <li><a class="dropdown-item" href="orthobiologics.html">Orthobiologics</a></li>
+                            <li><a class="dropdown-item" href="obstetrics-and-gynaecology.html">Obstetrics &
+                                    gynaecology</a></li>
+                            <li><a class="dropdown-item" href="general-medicine.html">General Medicine</a></li>
+                            <li><a class="dropdown-item" href="general-surgery.html">General Surgery</a></li>
+                            <li><a class="dropdown-item" href="paediatrics.html">Paediatrics</a></li>
+                            <li><a class="dropdown-item" href="pulmonology.html">Pulmonology</a></li>
+                            <li><a class="dropdown-item" href="medical-gastroenterology.html">Medical
+                                    Gastroenterology</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Infrastructure.html">Infrastructure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-appintment btn-sm blink" href="book-appointment.html">Book
+                            Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- DOCTOR PROFILE SECTION -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 align-items-start">
+
+                <!-- Left: Image + Quick Contact Card -->
+                <div class="col-12 col-lg-4">
+                    <div class="card shadow-sm border-0">
+                        <img src="./assets/images/doctors/Dr-U-S-Srinivasan.jpeg" class="card-img-top img-fluid"
+                            alt="Dr. U. S. Srinivasan Photograph" />
+                        <div class="card-body">
+                            <h3 class="h5 mb-1">Dr. U. S. Srinivasan</h3>
+                            <p class="text-muted mb-2">M.Ch, IFAANS (USA)</p>
+
+                            <p class="mb-3">
+                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle me-2">
+                                    Neurosurgery
+                                </span>
+                                <span class="badge bg-dark-subtle text-dark border border-dark-subtle">
+                                    32+ Years Experience
+                                </span>
+                            </p>
+
+                            <div class="small text-muted mb-2">
+                                <div class="mb-1">
+                                    <strong>Designation:</strong> Senior Consultant Neurosurgeon
+                                </div>
+                                <div class="mb-1">
+                                    <strong>Hospital:</strong> Sri Balaji Hospitals, Chennai, India
+                                </div>
+                            </div>
+
+                            <hr class="my-3" />
+
+                            <div class="d-grid gap-2">
+                                <a href="mailto:drussrinivasan@gmail.com" class="btn btn-primary">
+                                    Email Doctor
+                                </a>
+                                <a href="tel:+919841294495" class="btn btn-outline-primary">
+                                    Call +91 98412 94495
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Content -->
+                <div class="col-12 col-lg-8">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body p-4 p-md-5">
+
+                            <!-- Header -->
+                            <div class="mb-4">
+                                <h1 class="h3 mb-2">Dr. U. S. Srinivasan</h1>
+                                <p class="text-muted mb-1">
+                                    Senior Consultant Neurosurgeon, Sri Balaji Hospitals, Chennai, India
+                                </p>
+                                <p class="mb-0">
+                                    <span class="me-3">
+                                        <strong>Email:</strong>
+                                        <a href="mailto:drussrinivasan@gmail.com">drussrinivasan@gmail.com</a>
+                                    </span>
+                                    <span>
+                                        <strong>Mobile:</strong>
+                                        <a href="tel:+919841294495">+91 98412 94495</a>
+                                    </span>
+                                </p>
+                            </div>
+
+                            <!-- Professional Summary -->
+                            <div class="mb-4">
+                                <h2 class="h5">Professional Summary</h2>
+                                <p class="text-muted mb-0">
+                                    A distinguished Neurosurgeon with over 32 years of clinical, academic, and research
+                                    experience across
+                                    India, Oman, Japan, Switzerland, Italy, and Germany. Recognized for pioneering
+                                    neurosurgical innovations,
+                                    authoring globally cited research, and performing over 3,500 complex neurosurgical
+                                    procedures with a
+                                    98.5% success rate. Known for leadership in establishing neurosurgical departments
+                                    and mentoring
+                                    postgraduate trainees in leading medical institutions.
+                                </p>
+                            </div>
+
+                            <!-- Quick Highlights -->
+                            <div class="row g-3 mb-4">
+                                <div class="col-12 col-md-4">
+                                    <div class="p-3 rounded border bg-light h-100">
+                                        <div class="fw-semibold">Procedures</div>
+                                        <div class="text-muted small">3,500+ complex surgeries</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="p-3 rounded border bg-light h-100">
+                                        <div class="fw-semibold">Success Rate</div>
+                                        <div class="text-muted small">98.5%</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="p-3 rounded border bg-light h-100">
+                                        <div class="fw-semibold">Publications</div>
+                                        <div class="text-muted small">109 total (37 journals)</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Education -->
+                            <div class="mb-4">
+                                <h2 class="h5">Education</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">
+                                        <strong>M.Ch (Neurosurgery)</strong> – Madurai Medical College, Dr. M.G.R.
+                                        Medical University, Chennai (1993)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        <strong>M.B.B.S.</strong> – Madurai Medical College, Madurai Kamaraj University
+                                        (1987)
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Key Appointments -->
+                            <div class="mb-4">
+                                <h2 class="h5">Key Appointments</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">
+                                        <strong>Senior Consultant Neurosurgeon</strong>, Sri Balaji Hospitals, Chennai
+                                        <span class="text-muted"> (2014 – Present)</span>
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        <strong>Consultant Neurosurgeon</strong>, Nizwa Hospital, Oman
+                                        <span class="text-muted"> (2017 – 2019)</span>
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        <strong>Chief Neurosurgeon</strong>, MIOT Hospitals, Chennai
+                                        <span class="text-muted"> (2003 – 2013)</span>
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        <strong>Associate Professor &amp; HOD</strong>, Neurosurgery, PSG Hospitals,
+                                        Coimbatore
+                                        <span class="text-muted"> (1997 – 2002)</span>
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        <strong>Assistant Professor</strong>, Neurosurgery, PSG Hospitals, Coimbatore
+                                        <span class="text-muted"> (1994 – 1997)</span>
+                                    </li>
+                                </ul>
+                                <p class="text-muted small mt-2 mb-0">
+                                    Established the Department of Neurosurgery at PSG Hospitals, Coimbatore.
+                                </p>
+                            </div>
+
+                            <!-- International Fellowships & Training -->
+                            <div class="mb-4">
+                                <h2 class="h5">International Fellowships &amp; Training</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">
+                                        Cerebrovascular Aneurysm Surgery – Shinshu University, Japan (Prof. Shigeaki
+                                        Kobayashi, 2000)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Advanced Spinal Stabilization – Inselspital, Berne, Switzerland (Prof. Paul
+                                        Heine, 2005)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Endoscopic Pituitary Surgery – Bellaria Hospital, Bologna, Italy (Prof. Giorgio
+                                        Frank, 2009)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Microneurosurgical Observership – International Neuroscience Institute,
+                                        Hannover, Germany (Prof. Madjid Samii, 2013)
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Research & Publications -->
+                            <div class="mb-4">
+                                <h2 class="h5">Research &amp; Publications</h2>
+                                <p class="text-muted mb-0">
+                                    109 total publications – 37 in peer-reviewed journals (19 international, 18
+                                    national). Authored two
+                                    neurosurgical textbooks and contributed three chapters in international books.
+                                    Published five world-first
+                                    neurosurgical reports and a new classification (CASP) for cervical disc disease.
+                                </p>
+                            </div>
+
+                            <!-- Academic & Teaching Roles -->
+                            <div class="mb-4">
+                                <h2 class="h5">Academic &amp; Teaching Roles</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">DNB Neurosurgery Fellowship Faculty, MIOT Hospitals
+                                        (2004–2013)</li>
+                                    <li class="list-group-item px-0">Undergraduate &amp; Postgraduate Teaching, PSG
+                                        IMSR, Coimbatore (1994–2002)</li>
+                                    <li class="list-group-item px-0">Examiner &amp; Mentor, DNB &amp; M.Ch Neurosurgery
+                                        programs</li>
+                                </ul>
+                            </div>
+
+                            <!-- Professional Memberships -->
+                            <div class="mb-4">
+                                <h2 class="h5">Professional Memberships</h2>
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-6">
+                                        <div class="p-3 rounded border h-100">
+                                            <div class="fw-semibold mb-2">International</div>
+                                            <ul class="mb-0 text-muted">
+                                                <li>AANS (USA)</li>
+                                                <li>CNS (USA)</li>
+                                                <li>AO Spine (Europe)</li>
+                                                <li>ACNS (Japan)</li>
+                                                <li>NASS (USA)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="p-3 rounded border h-100">
+                                            <div class="fw-semibold mb-2">National</div>
+                                            <ul class="mb-0 text-muted">
+                                                <li>NSI</li>
+                                                <li>NSSI</li>
+                                                <li>Skull Base Society of India</li>
+                                                <li>Neurotrauma Society of India</li>
+                                                <li>IMA</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Awards & Honors -->
+                            <div class="mb-4">
+                                <h2 class="h5">Key Awards &amp; Honors</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">
+                                        <strong>Gandhian Young Technological Innovations Appreciation Award
+                                            (2024)</strong> – Government of India,
+                                        for “World’s first non-invasive measurement of cerebral blood flow in humans”.
+                                    </li>
+                                    <li class="list-group-item px-0">IFAANS (USA) – International Fellow of the AANS
+                                        (2015)</li>
+                                    <li class="list-group-item px-0">Oration Award – Shinshu University, Japan (2000)
+                                    </li>
+                                    <li class="list-group-item px-0">Certificate of Appreciation – Ministry of Health,
+                                        Oman (2018)</li>
+                                    <li class="list-group-item px-0">Rashtriya Ratna Shiromani Award (2003), Rashtriya
+                                        Pratibha Award (2004)</li>
+                                    <li class="list-group-item px-0">Distinguished Service Award – MIOT Hospitals (2005)
+                                    </li>
+                                    <li class="list-group-item px-0">Felicitated by PSG Hospitals, Coimbatore (2020)
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Recent Innovations & Collaborations -->
+                            <div class="mb-4">
+                                <h2 class="h5">Recent Innovations &amp; Collaborations</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">
+                                        Clinical trials (2021–22) on India’s first portable neuronavigation system
+                                        (Cartosense Pvt. Ltd., IIT Madras collaboration)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Collaboration with IIT Bombay (2025) – Non-invasive cerebral blood flow
+                                        measurement using diffuse correlation spectroscopy
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        AI-driven brain imaging studies presented at WFNS 2025, Dubai
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- International Contributions -->
+                            <div class="mb-4">
+                                <h2 class="h5">Selected International Contributions</h2>
+                                <p class="text-muted mb-0">
+                                    Chaired sessions and presented at WFNS World Congresses (2013, 2022, 2025).
+                                    Delivered invited orations in
+                                    Japan, China, Italy, USA, and Oman. Reviewer for international neurosurgical
+                                    journals.
+                                </p>
+                            </div>
+
+                            <!-- Community & Outreach -->
+                            <div>
+                                <h2 class="h5">Community &amp; Public Outreach</h2>
+                                <p class="text-muted mb-0">
+                                    Initiated 'Project Helmet' (Rotary Coimbatore Manchester), educating over 10,000
+                                    students on road safety.
+                                    Conducted free neurological health camps and authored public awareness articles in
+                                    newspapers and magazines.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- BACK BUTTON -->
+            <div class="text-center mt-5">
+                <a href="our-team.html" class="btn btn-outline-brand px-4">
+                    ← Back to Our Team
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Content -->
+                <div class="col-lg-8 text-lg-start text-center mb-3 mb-lg-0">
+                    <h3 class="fw-bold text-white mb-2">
+                        Experience Healthcare Designed Around You
+                    </h3>
+                    <p class="text-white-75 mb-0">
+                        Advanced infrastructure and thoughtfully designed spaces for a trusted care experience.
+                    </p>
+                </div>
+
+                <!-- Right Button -->
+                <div class="col-lg-4 text-lg-end text-center">
+                    <a href="book-appointment.html" class="btn btn-outline-light btn-lg rounded-pill px-5 fw-semibold">
+                        Book Appointment
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div id="footer-area"></div>
+
+    <!-- FLOATING BUTTONS -->
+    <div id="floating-buttons-area"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- External JS -->
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

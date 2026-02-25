@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhalakh Medical Centre - Day Care Medical Centre Adayar</title>
+
+    <!-- Website Fevicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Remix Icon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo+nabh.png" alt="Bhalakh Medical Center Logo" class="me-2">
+            </a>
+
+            <!-- Toggle button (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="our-team.html">Our Team</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="ourCareDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Care
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="ourCareDropdown">
+                            <li><a class="dropdown-item" href="radiology.html">Radiology</a></li>
+                            <li><a class="dropdown-item" href="orthopaedic.html">Orthopaedics</a></li>
+                            <li><a class="dropdown-item" href="orthobiologics.html">Orthobiologics</a></li>
+                            <li><a class="dropdown-item" href="obstetrics-and-gynaecology.html">Obstetrics &
+                                    gynaecology</a></li>
+                            <li><a class="dropdown-item" href="general-medicine.html">General Medicine</a></li>
+                            <li><a class="dropdown-item" href="general-surgery.html">General Surgery</a></li>
+                            <li><a class="dropdown-item" href="paediatrics.html">Paediatrics</a></li>
+                            <li><a class="dropdown-item" href="pulmonology.html">Pulmonology</a></li>
+                            <li><a class="dropdown-item" href="medical-gastroenterology.html">Medical
+                                    Gastroenterology</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Infrastructure.html">Infrastructure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-appintment btn-sm blink" href="book-appointment.html">Book
+                            Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- DOCTOR PROFILE SECTION -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 align-items-start">
+
+                <!-- Left: Image + Quick Contact Card -->
+                <div class="col-12 col-lg-4">
+                    <div class="card shadow-sm border-0">
+                        <img src="./assets/images/doctors/Dr-Pravin-K-Aggarwal.jpg" class="card-img-top img-fluid"
+                            alt="Dr. Pravin Kumar Aggarwal Photograph" />
+                        <div class="card-body">
+                            <h3 class="h5 mb-1">Dr. Pravin Kumar Aggarwal</h3>
+                            <p class="text-muted mb-2">Internal Medicine • Diabetes • Metabolism</p>
+
+                            <p class="mb-3">
+                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle me-2">
+                                    Internal Medicine
+                                </span>
+                                <span class="badge bg-success-subtle text-success border border-success-subtle me-2">
+                                    Diabetes Care
+                                </span>
+                                <span class="badge bg-dark-subtle text-dark border border-dark-subtle">
+                                    25+ Years Experience
+                                </span>
+                            </p>
+
+                            <div class="small text-muted mb-2">
+                                <div class="mb-1">
+                                    <strong>Role:</strong> Consultant – Internal Medicine, Diabetes &amp; Metabolism
+                                </div>
+                                <div class="mb-1">
+                                    <strong>Practicing at:</strong> Apollo Spectra Hospitals &amp; Fortis Malar
+                                    Hospitals, Chennai
+                                </div>
+                            </div>
+
+                            <hr class="my-3" />
+
+                            <!-- Optional buttons (edit links as per your site) -->
+                            <div class="d-grid gap-2">
+                                <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+                                <a href="#contact" class="btn btn-outline-primary">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Content -->
+                <div class="col-12 col-lg-8">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body p-4 p-md-5">
+
+                            <!-- Header -->
+                            <div class="mb-4">
+                                <h1 class="h3 mb-2">Dr. Pravin Kumar Aggarwal</h1>
+                                <p class="text-muted mb-0">
+                                    Practicing Consultant – Internal Medicine, Diabetes and Metabolism (Chennai)
+                                </p>
+                            </div>
+
+                            <!-- Professional Summary -->
+                            <div class="mb-4">
+                                <h2 class="h5">Professional Summary</h2>
+                                <ul class="text-muted mb-0">
+                                    <li>Currently a practicing consultant in Internal Medicine, Diabetes and Metabolism.
+                                    </li>
+                                    <li>Practicing at Apollo Spectra Hospitals and Fortis Malar Hospitals in Chennai for
+                                        25+ years.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Qualifications -->
+                            <div class="mb-4">
+                                <h2 class="h5">Qualifications</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">
+                                        <strong>MBBS</strong> – Stanley Medical College, Chennai (1981)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        <strong>M.D. (Internal Medicine)</strong> – Madras Medical College (1989)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Fellowship in Diabetes and Metabolism – Aarhus University, Denmark
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Postgraduate Course in Advanced Diabetes – Harvard Medical School
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Advanced Diabetes Technology Certification – Royal College of Physicians (U.K.)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Workshop in Diabetes Management – Joslin Diabetes Centre, Boston (U.S.A.)
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Academic / Speaking -->
+                            <div class="mb-4">
+                                <h2 class="h5">Academic &amp; Speaking</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">Faculty Speaker – RSSDI</li>
+                                    <li class="list-group-item px-0">
+                                        Speaker and Chairperson in various regional and national conferences and
+                                        seminars
+                                    </li>
+                                    <li class="list-group-item px-0">ADA certified Diabetes educator</li>
+                                </ul>
+                            </div>
+
+                            <!-- Research / Investigator -->
+                            <div class="mb-4">
+                                <h2 class="h5">Research &amp; Investigator Roles</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">
+                                        Investigator – EDGE Study (Novartis)
+                                    </li>
+                                    <li class="list-group-item px-0">
+                                        Investigator – Indian Heart Study (Hypertension detection in asymptomatic
+                                        individuals)
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Memberships -->
+                            <div>
+                                <h2 class="h5">Memberships</h2>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge text-bg-light border">RSSDI</span>
+                                    <span class="badge text-bg-light border">IMA</span>
+                                    <span class="badge text-bg-light border">API</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- BACK BUTTON -->
+            <div class="text-center mt-5">
+                <a href="our-team.html" class="btn btn-outline-brand px-4">
+                    ← Back to Our Team
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Content -->
+                <div class="col-lg-8 text-lg-start text-center mb-3 mb-lg-0">
+                    <h3 class="fw-bold text-white mb-2">
+                        Experience Healthcare Designed Around You
+                    </h3>
+                    <p class="text-white-75 mb-0">
+                        Advanced infrastructure and thoughtfully designed spaces for a trusted care experience.
+                    </p>
+                </div>
+
+                <!-- Right Button -->
+                <div class="col-lg-4 text-lg-end text-center">
+                    <a href="book-appointment.html" class="btn btn-outline-light btn-lg rounded-pill px-5 fw-semibold">
+                        Book Appointment
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div id="footer-area"></div>
+
+    <!-- FLOATING BUTTONS -->
+    <div id="floating-buttons-area"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- External JS -->
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
