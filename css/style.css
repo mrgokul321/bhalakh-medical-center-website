@@ -746,6 +746,49 @@ footer .form-control:focus {
     scroll-snap-align: start;
 }
 
+
+body{
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Section BG */
+.section-bg{
+  background: linear-gradient(135deg,#f5f7ff,#eef1ff);
+}
+
+/* Card Design */
+.service-card{
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.service-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Icon Circle */
+.icon-box{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  background: linear-gradient(135deg,#6f42c1,#a855f7);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:auto;
+  margin-bottom:15px;
+  color:#fff;
+  font-size:28px;
+}
+
+/* Title */
+.section-title{
+  font-weight:700;
+}
+
+
 @media (min-width: 768px) {
     .recap-card {
         width: 320px;
